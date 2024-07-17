@@ -1,0 +1,24 @@
+Slices: usadas para fatiar uma lista usando um valor inicial e um final [inicio : fim]
+
+- as slices leêm a posição dos números da lista iniciando do 0
+ex: [1,2,3,5]: posição 0=1, posição 1=2, posição 2=3 e a posição 3=5
+
+> Casos:
+1. new_list[inicio:fim] - tem como resultado os elementos da posição "inicio" até o elemento da posição anterior ao "fim" da lista
+
+2. new_list[inicio:] - tem como resultado os elementos da posição "inicio" até os elementos da posição "fim"
+
+3. new_list[:fim] - tem como resultado todos os elementos antes da posição "fim"
+
+4. new_list[-inicio:fim] - tem como resultado uma lista vazia
+
+5. new_list[inicio:-fim] - tem como resultado os elementos da posição "inicio" até o elemento antecessor a posição "-fim",
+      OBS: a posição "-fim"=a última posição, ou seja, a contagem para as -posições começam do final da lista.
+
+6. new_list[:] - tem como resultado uma cópia da lista.
+
+7. del list[inicio:fim] - esse caso exclui os elementos que estão entre a posição "inicio" e a posição "fim", assim, apresentam como resultado os elementos que sobram.
+
+8. del list[:] - esse caso exclui toda a lista, assim, tem como resultado uma lista vazia.
+
+9. new_list[::-1] - imprime a ordem inversa da lista
